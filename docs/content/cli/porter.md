@@ -39,6 +39,7 @@ porter [flags]
 * [porter create](/cli/porter_create/)	 - Create a bundle
 * [porter credentials](/cli/porter_credentials/)	 - Credentials commands
 * [porter explain](/cli/porter_explain/)	 - Explain a bundle
+* [porter hello](/cli/porter_hello/)	 - Say hello
 * [porter inspect](/cli/porter_inspect/)	 - Inspect a bundle
 * [porter install](/cli/porter_install/)	 - Create a new installation of a bundle
 * [porter installations](/cli/porter_installations/)	 - Installation commands

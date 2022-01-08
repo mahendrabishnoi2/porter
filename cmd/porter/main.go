@@ -75,6 +75,7 @@ func buildRootCommand() *cobra.Command {
 	cmd.AddCommand(buildCredentialsCommands(p))
 	cmd.AddCommand(buildParametersCommands(p))
 	cmd.AddCommand(buildCompletionCommand(p))
+	cmd.AddCommand(buildHelloCommand(p))
 
 	for _, alias := range buildAliasCommands(p) {
 		cmd.AddCommand(alias)
